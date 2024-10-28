@@ -32,7 +32,7 @@ public class FileSearchTest {
     // Test case: Empty directory with files to search for
     // dir.length() > 1, fileStrings.size(): 1, case_sensitive: false, directory exists but is empty
     @Test
-    public void testEmptyDirectoryWithFiles() {
+    public void testEmptyDirectory() {
         String dir = "test_dirs/empty";
         String[] fileStrings = {"file1.txt"};
         boolean case_sensitive = false;
